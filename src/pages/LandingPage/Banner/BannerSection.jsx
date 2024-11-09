@@ -13,9 +13,7 @@ import BannerLarge from "../../../../public/assets/images/banner/bannercut.jpg";
 
 
 const BannerSection = () => {
-  const [backgroundImage, setBackgroundImage] = useState(
-    "../../../../public/assets/images/banner/bannercut.jpg"
-  );
+  const [backgroundImage, setBackgroundImage] = useState(BannerLarge);
 
   useEffect(() => {
     const handleResize = () => {
