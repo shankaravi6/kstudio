@@ -8,6 +8,9 @@ import {
 import BannerImage from "./BannerImage";
 import BannerContent from "./BannerContent";
 import InfoSection from "../Info/InfoSection";
+import BannerSmall from "../../../../public/assets/images/banner/bannersmall.jpg";
+import BannerLarge from "../../../../public/assets/images/banner/bannercut.jpg";
+
 
 const BannerSection = () => {
   const [backgroundImage, setBackgroundImage] = useState(
@@ -17,9 +20,9 @@ const BannerSection = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 970) {
-        setBackgroundImage("../../../../public/assets/images/banner/bannersmall.jpg");
+        setBackgroundImage(BannerSmall);
       } else {
-        setBackgroundImage("../../../../public/assets/images/banner/bannercut.jpg");
+        setBackgroundImage(BannerLarge);
       }
     };
 
