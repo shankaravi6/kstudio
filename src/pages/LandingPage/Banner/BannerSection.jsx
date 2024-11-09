@@ -37,7 +37,7 @@ const BannerSection = () => {
   return (
     <SoSection
       h="525px"
-      sh='550px'
+      sh='650px'
       mp="10px"
       sp="10px"
       p="10px"
