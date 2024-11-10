@@ -100,8 +100,7 @@ export const SoFlex = SiloComponent(styled.div`
     align-items: ${(props) => (props.sal ? props.sal : "center")};
     justify-content: ${(props) => (props.sjc ? props.sjc : "center")};
     width: ${(props) => (props.sw ? props.sw : "unset")};
-    height: ${(props) => (props.sh ? props.sh : "unset")};
-    gap: ${({ sgap }) => (sgap ? sgap : "10px")};
+    height: ${(props) => (props.sh ? props.sh : "unset")};
   }
 `);
 
