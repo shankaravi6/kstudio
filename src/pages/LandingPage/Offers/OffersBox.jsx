@@ -6,7 +6,7 @@ const OffersBox = () => {
   return (
     <SoFlex wrap='wrap' al='center' jc='center' gap='clamp(2rem, 10vw, 5rem)'>
         <SoBox className='cursor-pointer' bsHover='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' br='15px' bs='rgba(99, 99, 99, 0.2) 0px 2px 8px 0px' p='20px' w='350px' h='350px'>
-            <SoFlex m='25px 0' dir='column' gap='10px'>
+            <SoFlex m='25px 0' dir='column' gap='10px' sgap='10px'>
             <SoBox br='20px' w='270px' h='270px'>
                 <SoImg br='20px' src={WeddingPic} width="100%"  />
             </SoBox>
@@ -17,7 +17,7 @@ const OffersBox = () => {
             </SoFlex>
         </SoBox>
         <SoBox className='cursor-pointer' bsHover='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' br='15px' bs='rgba(99, 99, 99, 0.2) 0px 2px 8px 0px' p='20px' w='350px' h='350px'>
-            <SoFlex m='25px 0' dir='column' gap='10px'>
+            <SoFlex m='25px 0' dir='column' gap='10px' sgap='10px'>
             <SoBox br='20px' w='270px' h='270px'>
                 <SoImg br='20px' src={WeddingPic} width="100%"  />
             </SoBox>
@@ -28,7 +28,7 @@ const OffersBox = () => {
             </SoFlex>
         </SoBox>
         <SoBox className='cursor-pointer' bsHover='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' br='15px' bs='rgba(99, 99, 99, 0.2) 0px 2px 8px 0px' p='20px' w='350px' h='350px'>
-            <SoFlex m='25px 0' dir='column' gap='10px'>
+            <SoFlex m='25px 0' dir='column' gap='10px' sgap='10px'>
             <SoBox br='20px' w='270px' h='270px'>
                 <SoImg br='20px' src={WeddingPic} width="100%"  />
             </SoBox>
