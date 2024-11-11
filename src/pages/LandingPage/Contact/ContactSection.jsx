@@ -15,7 +15,7 @@ const ContactSection = () => {
         <SoFlex p="0 0 20px 0">
           <SoSubTitle tt="uppercase">Contact Us</SoSubTitle>
         </SoFlex>
-        <SoFlex gap="0 5rem" sgap='2.5rem'>
+        <SoFlex gap="clamp(2rem, 10vw, 5rem)">
           <ContactMap />
           <ContactInfo />
         </SoFlex>

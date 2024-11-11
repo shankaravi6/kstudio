@@ -100,7 +100,8 @@ export const SoFlex = SiloComponent(styled.div`
     align-items: ${(props) => (props.sal ? props.sal : "center")};
     justify-content: ${(props) => (props.sjc ? props.sjc : "center")};
     width: ${(props) => (props.sw ? props.sw : "unset")};
-    height: ${(props) => (props.sh ? props.sh : "unset")};
+    height: ${(props) => (props.sh ? props.sh : "unset")};
+
   }
 `);
 
@@ -207,9 +208,9 @@ export const SoForm = styled.form`
 
 export const SoTitle = SiloComponent(styled.h1`
   font-family: FrontPage;
-  font-size: ${(props) => (props.fs ? props.fs : "clamp(2rem, 10vw, 15rem)")};
+  font-size: ${(props) => (props.fs ? props.fs : "clamp(2rem, 10vw, 5.5rem)")};
   text-align: center;
-  letter-spacing: ${(props) => (props.ls ? props.ls : "clamp(1rem, 5vw, 2rem)")};
+  letter-spacing: ${(props) => (props.ls ? props.ls : "clamp(1rem, 5vw, 1rem)")};
   color: ${(props) => props.color ? props.color : props.palette.text.main};
   text-transform: ${(props) => props.tt ? props.tt : "unset"};
   margin: unset;
@@ -253,7 +254,7 @@ export const SoHeadLineText = SiloComponent(styled.p`
 `);
 
 export const SoSubTitle = SiloComponent(styled.h1`
-  font-family: Ezrademo;
+  font-family: "Montaga", serif;
   font-size: ${(props) => (props.fs ? props.fs : "clamp(1rem, 5vw, 2.5rem)")};
   text-align: ${(props) => props.ta ? props.ta :"center"};
   letter-spacing: ${(props) => (props.ls ? props.ls : "0px")};
@@ -296,8 +297,7 @@ export const SoTypography = SiloComponent(styled.p`
   font-size: ${(props) => (props.fs ? props.fs : "clamp(1rem, 5vw, 1.5rem)")};
   font-weight: ${(props) => (props.fw ? props.fw : "normal")};
   letter-spacing: ${(props) => props.ls ? props.ls : '1px'};
-  font-family: ${(props) => (props.fm ? props.fm : "Faculty Glyphic, sans-serif")};
-  font-style: italic;
+  font-family: ${(props) => (props.fm ? props.fm : "Raleway, sans-serif")};
   padding: ${(props) => props.p};
   margin: ${(props) => props.m};
   color: ${(props) => (props.color ? props.color : props.palette.text.main)};

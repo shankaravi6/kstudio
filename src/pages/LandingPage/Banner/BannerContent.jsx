@@ -21,7 +21,7 @@ const BannerContent = () => {
           <SoTypography>2024</SoTypography>
         </SoFlex> */}
         <SoTypography color={colorTokens.drops[300]} fs="clamp(.25rem, 5vw, 1.5rem)">
-          Creating Memories & Capturing its Essence
+          Creating Memories & its Essence
         </SoTypography>
         <SoBox p="25px 0 0 0">
           <SoButton>Enquire Now</SoButton>

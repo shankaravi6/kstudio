@@ -28,7 +28,7 @@ const MasonryLayout = ({ articleData }) => {
                 <Fade style={{width:"100%"}}>
                   <SoBox className="relative">
                     <SoImg br='5px' width="100%" src={`assets/${data.img}`} />
-                    <SoTypography
+                    {/* <SoTypography
                       tt="uppercase"
                       className="absolute bottom-0 right-0"
                       style={{
@@ -40,7 +40,7 @@ const MasonryLayout = ({ articleData }) => {
                       color={palette.text.title}
                     >
                       {data.title}
-                    </SoTypography>
+                    </SoTypography> */}
                   </SoBox>
                   <SoBox w="100%">
                     <SoFlex sjc='space-between' jc="space-between" sw='100%' sm_dir="row" w="100%">
