@@ -74,11 +74,11 @@ const ArticleSection = () => {
   };
 
   return (
-    <SoSection id='article' mp='10px' sp='10px'>
+    <SoSection id='article' mp='0px 20px' sp='10px'>
       <SoCover m="100px 0 0 0">
         <SoFlex>
           <SoFlex>
-            <SoSubTitle tt="uppercase">Gallery</SoSubTitle>
+            <SoSubTitle fs="clamp(1.5rem,5vw,2.5rem)" tt="uppercase">Gallery</SoSubTitle>
           </SoFlex>
         </SoFlex>
         <SoBox sdisplay="block" display="block">

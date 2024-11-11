@@ -10,7 +10,7 @@ import ContactInfo from "./ContactInfo";
 
 const ContactSection = () => {
   return (
-    <SoSection mp="10px" sp="10px">
+    <SoSection mp="0px 20px" sp="10px">
       <SoCover m="100px 0 0 0">
         <SoFlex p="0 0 20px 0">
           <SoSubTitle tt="uppercase">Contact Us</SoSubTitle>

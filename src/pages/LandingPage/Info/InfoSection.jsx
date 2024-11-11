@@ -5,9 +5,9 @@ import InfoContent from './InfoContent'
 
 const InfoSection = () => {
   return (
-    <SoSection mp='10px' sp='10px'>
+    <SoSection mp='0 20px' sp='10px'>
         <SoCover m='100px 0 0 0'>
-        <SoFlex gap='0 5rem'>
+        <SoFlex gap='clamp(2rem, 10vw, 5rem)'>
             <InfoImage/>
             <InfoContent/>
         </SoFlex>
