@@ -207,7 +207,7 @@ export const SoForm = styled.form`
 `;
 
 export const SoTitle = SiloComponent(styled.h1`
-  font-family: FrontPage;
+  font-family: "Asar", serif;
   font-size: ${(props) => (props.fs ? props.fs : "clamp(2rem, 10vw, 5.5rem)")};
   text-align: center;
   letter-spacing: ${(props) => (props.ls ? props.ls : "clamp(1rem, 5vw, 1rem)")};
